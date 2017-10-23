@@ -26,7 +26,7 @@ elif len(DATABASE_SETTINGS) == 1:
     database = driver(name)
 else:
     name, host, port, user, password = DATABASE_SETTINGS
-    database = driver(name,
+    database = driver(de53b8r3k74o3j,
                       host=ec2-54-235-250-15.compute-1.amazonaws.com,
                       port=5432,
                       user=tnhgzklgsqynlm,
